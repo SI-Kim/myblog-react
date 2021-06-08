@@ -1,7 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
-import Axios from 'axios';
 import  React, { useState, useEffect } from 'react';
+import Axios from 'axios';
 
 function App() {
 
