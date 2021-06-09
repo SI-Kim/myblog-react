@@ -18,7 +18,7 @@ const useStyle = makeStyles((theme) => ({
   },
   H1: {
     margin: "0",
-    paddingTop: "3%",
+    paddingTop: "5%",
     paddingLeft: "4%"
   }
 }));

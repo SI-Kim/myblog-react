@@ -14,8 +14,9 @@ const useStyle = makeStyles((theme) => ({
   mainBox: {
     backgroundColor: "#F5F5DC",
     height: "70vh",
-    width: "85vw",
-    float: "right"
+    width: "70vw",
+    float: "right",
+    marginRight: "15vw"
   },
   h1: {
     color: "black",
