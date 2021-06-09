@@ -1,4 +1,4 @@
-export { defalut as Header } from "./Header";
-export { defalut as Footer } from "./Footer";
-export { defalut as Main } from "./Main";
-export { defalut as Sidebar } from "./Sidebar";
+export { default as Header } from "./Header";
+export { default as Footer } from "./Footer";
+export { default as Main } from "./Main";
+export { default as Sidebar } from "./Sidebar";
