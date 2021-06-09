@@ -16,7 +16,10 @@ const useStyle = makeStyles((theme) => ({
     height: "70vh",
     width: "70vw",
     float: "right",
-    marginRight: "15vw"
+    marginRight: "15vw",
+    "&:hover": {
+      border: "dotted 3px"
+    }
   },
   h1: {
     color: "black",
