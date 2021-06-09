@@ -1,8 +1,7 @@
-import  React, { useState, useEffect } from 'react';
-import Axios from 'axios';
+import React, { useState, useEffect } from "react";
+import Axios from "axios";
 
 function App() {
-
   const [text, setText] = useState("");
 
   useEffect(() => {
@@ -17,15 +16,11 @@ function App() {
       }
     });
   }, []);
-  
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          text: {text}
-        </p>
+    <div>
+      <header>
+        <p>text: {text}</p>
       </header>
     </div>
   );
