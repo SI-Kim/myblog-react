@@ -8,7 +8,7 @@ const Main = () => {
       <h1 className={classes.h1}>Main</h1>
     </div>
   );
-}; //
+}; ///
 
 const useStyle = makeStyles((theme) => ({
   mainBox: {
