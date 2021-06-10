@@ -12,11 +12,13 @@ const Sidebar = () => {
 
 const useStyle = makeStyles((theme) => ({
   sidebarBox: {
-    backgroundColor: "#3CB371",
     width: "15%",
-    color: "white",
+    color: "black",
     height: "70%",
-    float: "left"
+    float: "left",
+    "&:hover": {
+      border: "dotted"
+    }
   },
   p: {
     paddingLeft: "20%",

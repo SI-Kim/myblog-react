@@ -12,12 +12,14 @@ const Footer = () => {
 
 const useStyle = makeStyles((theme) => ({
   footerBox: {
-    backgroundColor: "#483D8B",
     position: "absolute",
     bottom: "0",
     width: "100%",
     height: "15%",
-    color: "white"
+    color: "black",
+    "&:hover": {
+      border: "dotted"
+    }
   },
   p: {
     paddingLeft: "4%",

@@ -12,17 +12,16 @@ const Main = () => {
 
 const useStyle = makeStyles((theme) => ({
   mainBox: {
-    backgroundColor: "#F5F5DC",
     height: "70vh",
-    width: "70vw",
+    width: "69vw",
     float: "right",
     marginRight: "15vw",
+    color: "black",
     "&:hover": {
-      border: "dotted 3px"
+      border: "dotted"
     }
   },
   h1: {
-    color: "black",
     paddingTop: "35%",
     paddingLeft: "45%"
   }
