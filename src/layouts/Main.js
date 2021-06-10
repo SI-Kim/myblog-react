@@ -14,8 +14,7 @@ const useStyle = makeStyles((theme) => ({
   mainBox: {
     height: "70vh",
     width: "69vw",
-    float: "right",
-    marginRight: "15vw",
+    float: "left",
     color: "black",
     "&:hover": {
       border: "dotted"

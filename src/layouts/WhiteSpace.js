@@ -5,17 +5,29 @@ const WhiteSpace = () => {
   const classes = useStyle();
   return (
     <div className={classes.whiteSpaceBox}>
-      <p>WhiteSpace</p>
+      <p className={classes.p}>
+        White
+        <br />
+        Space
+      </p>
     </div>
   );
 };
 
 const useStyle = makeStyles((theme) => ({
   whiteSpaceBox: {
-    border: "1px",
+    float: "right",
+    marginRight: "0",
+    width: "15vw",
+    height: "70vh",
+
     "&:hover": {
       border: "dotted"
     }
+  },
+  p: {
+    paddingRight: "20%",
+    paddingTop: "170%"
   }
 }));
 
