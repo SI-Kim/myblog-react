@@ -26,7 +26,7 @@ const useStyle = makeStyles((theme) => ({
     paddingLeft: "45%"
   },
   router: {
-    height: "inherit"
+    height: "70vh"
   }
 }));
 

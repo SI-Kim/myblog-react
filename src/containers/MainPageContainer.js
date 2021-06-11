@@ -4,7 +4,7 @@ import { Button } from "@material-ui/core";
 
 const MainPageContainer = () => {
   return (
-    <div>
+    <div className="MainPageContainer">
       <Link to="boardList">
         <Button children="List" variant="contained" />
       </Link>

@@ -10,7 +10,11 @@ import {
 
 const BoardListContainer = () => {
   const classes = useStyle();
-  return <div>boardList</div>;
+  return (
+    <div className="BoardListContainer" style={{ backgroundColor: "black" }}>
+      boardList
+    </div>
+  );
 };
 
 const useStyle = makeStyles((theme) => ({}));
