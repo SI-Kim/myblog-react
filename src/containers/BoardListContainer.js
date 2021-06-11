@@ -8,11 +8,11 @@ import {
   TableCell
 } from "@material-ui/core";
 
-const BoardList = () => {
+const BoardListContainer = () => {
   const classes = useStyle();
-  return <div></div>;
+  return <div>boardList</div>;
 };
 
 const useStyle = makeStyles((theme) => ({}));
 
-export default BoardList;
+export default BoardListContainer;

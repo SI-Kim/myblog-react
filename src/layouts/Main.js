@@ -6,7 +6,7 @@ const Main = () => {
   const classes = useStyle();
   return (
     <div className={classes.mainBox}>
-      <Router />
+      <Router className={classes.router} />
     </div>
   );
 };
@@ -24,6 +24,9 @@ const useStyle = makeStyles((theme) => ({
   h1: {
     paddingTop: "35%",
     paddingLeft: "45%"
+  },
+  router: {
+    height: "inherit"
   }
 }));
 
