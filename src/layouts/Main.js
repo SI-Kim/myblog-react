@@ -1,11 +1,12 @@
 import React from "react";
 import { makeStyles } from "@material-ui/styles";
+import Router from "../routes/Router";
 
 const Main = () => {
   const classes = useStyle();
   return (
     <div className={classes.mainBox}>
-      <h1 className={classes.h1}>Main</h1>
+      <Router />
     </div>
   );
 };
