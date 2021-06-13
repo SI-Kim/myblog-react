@@ -5,7 +5,7 @@ const Header = () => {
   const classes = useStyle();
   return (
     <div className={classes.headerBox}>
-      <h1 className={classes.H1}>Header</h1>
+      <h1 className={classes.h1}>Header</h1>
     </div>
   );
 };
@@ -18,7 +18,7 @@ const useStyle = makeStyles((theme) => ({
       border: "dotted"
     }
   },
-  H1: {
+  h1: {
     margin: "0",
     paddingTop: "5%",
     paddingLeft: "4%"

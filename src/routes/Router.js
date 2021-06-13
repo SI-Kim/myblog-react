@@ -7,7 +7,7 @@ const Router = () => {
   const classes = useStyle();
   return (
     <div className={classes.router}>
-      <Route path="/" component={MainPageContainer} />
+      <Route path="/" exact={true} component={MainPageContainer} />
       <Route path="/boardList" component={BoardListContainer} />
     </div>
   );

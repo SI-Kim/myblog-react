@@ -11,12 +11,17 @@ import {
 const BoardListContainer = () => {
   const classes = useStyle();
   return (
-    <div className="BoardListContainer" style={{ backgroundColor: "black" }}>
+    <div className={classes.containerBox} >
       boardList
     </div>
   );
 };
 
-const useStyle = makeStyles((theme) => ({}));
+const useStyle = makeStyles((theme) => ({
+  containerBox: {
+    height: "100%",
+    width: "100%",
+  }
+}));
 
 export default BoardListContainer;
