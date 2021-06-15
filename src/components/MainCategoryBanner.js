@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const MainCategoryBanner = ({ header, content, date }) => {
   const classes = useStyle();
   return (
-    <Link to="boardList">
+    <Link to="boardList" className={classes.linkBox}>
       <Card className={classes.cardBox}>
         <CardHeader title={header} subheader={date} />
         <CardContent>{content}</CardContent>
@@ -17,8 +17,12 @@ const MainCategoryBanner = ({ header, content, date }) => {
 
 const useStyle = makeStyles((theme) => ({
   cardBox: {
-    width: "20%",
+    width: "90%",
     margin: "2%"
+  },
+  linkBox: {
+    display: "inline-block",
+    width: "30%"
   }
 }));
 
