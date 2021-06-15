@@ -3,10 +3,10 @@ import { Card, CardHeader, CardContent, CardActions } from "@material-ui/core";
 import { makeStyles } from "@material-ui/styles";
 import { Link } from "react-router-dom";
 
-const MainCategoryBanner = ({ header, content, date }) => {
+const MainCategoryBanner = ({ header, content, date, url }) => {
   const classes = useStyle();
   return (
-    <Link to="boardList" className={classes.linkBox}>
+    <Link to={url} className={classes.linkBox}>
       <Card className={classes.cardBox}>
         <CardHeader title={header} subheader={date} />
         <CardContent>{content}</CardContent>

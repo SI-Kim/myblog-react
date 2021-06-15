@@ -14,6 +14,7 @@ const MainPageContainer = () => {
           header={data.name}
           date={data.date}
           content={data.content}
+          url={data.url}
         />
       ))}
     </div>
