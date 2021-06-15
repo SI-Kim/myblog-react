@@ -1,6 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { Button } from "@material-ui/core";
 import { makeStyles } from "@material-ui/styles";
 import Categories from "../datas/Categories";
 import { MainCategoryBanner } from "../components/index";
