@@ -18,11 +18,13 @@ const MainCategoryBanner = ({ header, content, date, url }) => {
 const useStyle = makeStyles((theme) => ({
   cardBox: {
     width: "90%",
-    margin: "2%"
+    margin: "auto"
   },
   linkBox: {
     display: "inline-block",
-    width: "30%"
+    width: "31%",
+    padding: "1%"
+    
   }
 }));
 
