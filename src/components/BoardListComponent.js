@@ -12,7 +12,9 @@ const BoardListComponent = () => {
   const classes = useStyle();
   return (
     <div className={classes.boardBox}>
-      <TableContainer></TableContainer>
+      <TableContainer>
+        <TableHead></TableHead>
+      </TableContainer>
     </div>
   );
 };
