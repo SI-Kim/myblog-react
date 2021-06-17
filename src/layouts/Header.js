@@ -12,7 +12,8 @@ const Header = () => {
 
 const useStyle = makeStyles((theme) => ({
   headerBox: {
-    height: "15%",
+    height: "10%",
+    marginBottom: "5%",
     color: "white",
     backgroundColor: "black",
     "&:hover": {
@@ -23,7 +24,7 @@ const useStyle = makeStyles((theme) => ({
   },
   h1: {
     margin: "0",
-    paddingTop: "5%",
+    paddingTop: "3%",
     paddingLeft: "4%"
   }
 }));

@@ -15,7 +15,8 @@ const useStyle = makeStyles((theme) => ({
     position: "absolute",
     bottom: "0",
     width: "100%",
-    height: "15%",
+    height: "10%",
+    marginTop: "5%",
     color: "white",
     backgroundColor: "black",
     "&:hover": {
