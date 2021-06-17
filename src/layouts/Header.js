@@ -13,9 +13,12 @@ const Header = () => {
 const useStyle = makeStyles((theme) => ({
   headerBox: {
     height: "15%",
-    color: "black",
+    color: "white",
+    backgroundColor: "black",
     "&:hover": {
-      border: "dotted"
+      border: "dotted",
+      backgroundColor: "white",
+      color: "black"
     }
   },
   h1: {
