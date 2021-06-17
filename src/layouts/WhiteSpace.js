@@ -26,7 +26,7 @@ const useStyle = makeStyles((theme) => ({
     }
   },
   p: {
-    paddingRight: "20%",
+    paddingLeft: "35%",
     paddingTop: "170%"
   }
 }));
