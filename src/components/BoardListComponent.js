@@ -16,7 +16,9 @@ const BoardListComponent = () => {
       <TableContainer className={classes.table}>
         <TableHead>
           <TableRow>
-           
+           <TableCell></TableCell>
+           <TableCell></TableCell>
+           <TableCell></TableCell>
           </TableRow>
         </TableHead>
       </TableContainer>
@@ -31,8 +33,10 @@ const useStyle = makeStyles((theme) => ({
     height: "100%"
   },
   table: {
+    marginLeft: "5%",
+    marginRight: "5% auto",
     backgroundColor: "yellow",
-    width: "100%",
+    width: "90%",
     height: "100%"
   }
 }));
